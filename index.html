@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <p class="title"> IMRS</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="para">Static & Dynamic Web Creater</p>
+                <h1>Hi, I'm <span>Md Rahmatullah</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ............About............ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./assets/image2.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi! My Name is <b>Md Rahmatullah </b>I'm from India In Which State of Jharkhand , I am Full Stack Developer (MERN) MongoDB, ExpressJS, ReactJS & NodeJS Aspiring Web Engineer Seeking an Internship</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Java Development</span><br>Building web Development </li>
+                    </ul>
+                </div>
+            </div>
+
+            
+
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Bechalor Computer Of Application (BCA)</span><br>Pursuing : Batch( 2022 To 2025)</li>
+                    <li><span>XII (JAC)</span><br>JKS Inter College Of Commerce JSR-12</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ........services....... -->
+
+<div id="services">
+<div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <h2>Website Creation</h2>
+            <p>Dynamic Website. The difference between static websites and dynamic websites is that static websites appear the same for every user that accesses them and only change when a developer modifies the source files, whereas dynamic websites can present different information to different visitors.I lots of create a website using HTML, CSS, & JS. 
+                
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <h2>Java Development</h2>
+            <p>What Does a Java Developer Do? Responsible for developing applications and software using the Java programming language, these specialized programmers collaborate with fellow software engineers, web developers, and others to use Java for developing business applications, websites and more.</p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- ----------Portfolio------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./assets/work1.png" >
+                <div class="layer">
+                    <h3>Todo App</h3>
+                    <p>This iS Todo App Listing in which a you add our daily habbits or Rutine to Reminder you </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./assets/work2.png" >
+                <div class="layer">
+                    <h3>Application</h3>
+                    <p>This is Application form of any bank or other feilds in which basic information of Personal.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./assets/work3.png" >
+                <div class="layer">
+                    <h3>Gym Web</h3>
+                    <p>This is Gym web in which all items available that required for doing Gym</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------contact------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                
+                <p><i class="fas fa-paper-plane"></i> My email id :- rahmatullahmd156@gmail.com</p>
+             
+                <p><i class="fa-solid fa-square-phone"></i>  My Mobile Number:- 7667948886</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/MD Rahmatullah"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/r@hmat321"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/itz__rahmat__imrs"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/md-rahmatullah58"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Md-Rahmatullah58"><i class="fab fa-github"></i></a>
+                 
+                </div>
+                <a href="./assets/Resume.docx"dawnload  class="btn btn2">Dawnload Resume</a>
+            </div>
+
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Md Rahmatullah. Made with <i class="fas fa-heart"></i> by IMRS </p>
+    </div>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
